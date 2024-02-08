@@ -18,19 +18,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">T3-Twitter Application</h3>
-
+  <h3 align="center">T3-Invoice Application</h3>
   <p align="center">
-    An awesome T3 practice project to clone twitter basic functionality and design
+    An awesome T3 practice project to build an Invoice app
     <br />
-    <a href="https://github.com/hibrahi000/T3-Twitter"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hibrahi000/T3-Invoice"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://t3-twitter-liard.vercel.app/">View Demo</a>
+    <a href="https://T3-Invoice-liard.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/hibrahi000/T3-Twitter/issues">Report Bug</a>
+    <a href="https://github.com/hibrahi000/T3-Invoice/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hibrahi000/T3-Twitter/issues">Request Feature</a>
+    <a href="https://github.com/hibrahi000/T3-Invoice/issues">Request Feature</a>
   </p>
 </div>
 
@@ -61,16 +60,11 @@
 
 ## About The Project
 
-I have a habit of trying to learn new and fascinating ways to create new websites and applications. This is one where I am practicing this habit with the T3 Stack in making a mock twitter.
+I have a habit of trying to learn new and fascinating ways to create new websites and applications. This is one where I am practicing this habit with the T3 Stack in making a invoice application.
 
 _Functionality:_
 
-- Login using OAuth via discord
-- Utilize infinite scrolling
-- Add Tweets
-- Like Tweets
-- Follow users
-- Unfollow users
+- pending ****
 
 Of course, there is always room for improvement and this readMe will be updated to reflect that!
 
@@ -84,6 +78,7 @@ Of course, there is always room for improvement and this readMe will be updated 
 - [![PrismaLogo][PrismaLogo]][prisma-url]
 - [![Next][Next.js]][Next-url]
 - [![**React**][React.js]][React-url]
+- [![postgres-shield][postgres-shield]][postgres-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +102,7 @@ Of course, there is always room for improvement and this readMe will be updated 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/hibrahi000/T3-Twitter.git
+   git clone https://github.com/hibrahi000/T3-Invoice.git
    ```
 2. Install NPM packages
    ```sh
@@ -115,7 +110,8 @@ Of course, there is always room for improvement and this readMe will be updated 
    ```
 3. Create and enter your Environment Variables in `env.js` at the root directory
 
-- DATABASE_URL - you get this from your pascal database settings
+- DATABASE_URL - you get this from either your local or production postgres server
+  - The format is as follows `postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName`
 - NEXTAUTH_SECRET - you can generate this by running : `openssl rand -base64 32` in your terminal
 - NEXTAUTH_URL - for dev it will be "http://localhost:3000"
 - DISCORD_CLIENT_ID - you can get this from your developer settings on discord
@@ -157,23 +153,27 @@ Hashmat Ibrahimi
 [![Gmail][gmail-shield]][gmail-url]
 [![Github][github-shield]][github-url]
 
-Project Link: [https://github.com/hibrahi000/T3-Twitter](https://github.com/hibrahi000/T3-Twitter)
+Project Link: [https://github.com/hibrahi000/T3-Invoice](https://github.com/hibrahi000/T3-Invoice)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/hibrahi000/T3-Twitter.svg?style=for-the-badge
-[contributors-url]: https://github.com/hibrahi000/T3-Twitter/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/hibrahi000/T3-Twitter.svg?style=for-the-badge
-[forks-url]: https://github.com/hibrahi000/T3-Twitter/network/members
-[stars-shield]: https://img.shields.io/github/stars/hibrahi000/T3-Twitter.svg?style=for-the-badge
-[stars-url]: https://github.com/hibrahi000/T3-Twitter/stargazers
-[issues-shield]: https://img.shields.io/github/issues/hibrahi000/T3-Twitter.svg?style=for-the-badge
-[issues-url]: https://github.com/hibrahi000/T3-Twitter/issues
-[license-shield]: https://img.shields.io/github/license/hibrahi000/T3-Twitter.svg?style=for-the-badge
-[license-url]: https://github.com/hibrahi000/T3-Twitter/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/hibrahi000/T3-Invoice.svg?style=for-the-badge
+[contributors-url]: https://github.com/hibrahi000/T3-Invoice/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hibrahi000/T3-Invoice.svg?style=for-the-badge
+[forks-url]: https://github.com/hibrahi000/T3-Invoice/network/members
+[stars-shield]: https://img.shields.io/github/stars/hibrahi000/T3-Invoice.svg?style=for-the-badge
+[stars-url]: https://github.com/hibrahi000/T3-Invoice/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hibrahi000/T3-Invoice.svg?style=for-the-badge
+[issues-url]: https://github.com/hibrahi000/T3-Invoice/issues
+[license-shield]: https://img.shields.io/github/license/hibrahi000/T3-Invoice.svg?style=for-the-badge
+[license-url]: https://github.com/hibrahi000/T3-Invoice/blob/master/LICENSE.txt
+[postgres-shield]: https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white
+[postgres-url]:https://www.postgresql.org/
+
+
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/hashmat-ibrahimi/
 [product-screenshot]: images/screenshot.png
